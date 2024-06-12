@@ -1,2 +1,2 @@
 # IBM
-Work done as part of IBM internship - "Heba changes"
+Work done as part of IBM internship - "Aida changes"
