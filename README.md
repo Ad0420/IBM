@@ -9,3 +9,5 @@ Equipment used:
 - LADP1 KIOXIA flash microSD adapter
 
 Raspberry Pi documentation used for setup:  Check out the website [here](https://www.raspberrypi.org/documentation/).
+
+Install operating system using imager, download latest version from [here](raspberrypi.com/software).
