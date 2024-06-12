@@ -1,2 +1,2 @@
 # IBM
-Work done as part of IBM internship - test
+Work done as part of IBM internship
