@@ -1,5 +1,5 @@
 # IBM
-Work done as part of IBM internship - my changes blah blah - wow
+Work done as part of IBM internship
 
 Below is the set up process to prepare the Raspberry Pi 4 with the Raspbian operating system. advik   
 
