@@ -1,0 +1,44 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "final final",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ledLight",
+                    "slots": [],
+                    "samples": [
+                        "turn on light"
+                    ]
+                },
+                {
+                    "name": "closeLight",
+                    "slots": [],
+                    "samples": [
+                        "turn off light"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
