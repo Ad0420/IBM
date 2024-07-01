@@ -1,33 +1,50 @@
 # IBM
 Work done as part of IBM internship
 
-Below is the set up process to prepare the Raspberry Pi 4 with the Raspbian operating system. advik   
+# Voice-Controlled IoT Automation with Alexa and Raspberry Pi 4
 
-Equipment used:
-- Raspberry Pi 4
-- KIOXIA EXCERIA 16GB microSD HC card
-- LADP1 KIOXIA flash microSD adapter
+## Project Overview
 
-Raspberry Pi documentation used for setup:  Check out the website [here](https://www.raspberrypi.org/documentation/).
+This project demonstrates how to control LEDs using voice commands with an Alexa device and a Raspberry Pi 4. The setup leverages AWS services, including AWS Lambda and AWS IoT Core, to bridge the communication between the Alexa device and the Raspberry Pi.
 
-Install operating system using imager, download latest version from [here](raspberrypi.com/software).
+## Requirements
 
-Once the setup was complete, a simple Python script was written to blink an LED connected to the Raspberry Pi. This can be found....
+- **Alexa Device**: Provides voice control functionality.
+- **Alexa Developer Console**: Used to create and manage Alexa skills.
+- **AWS Lambda**: Executes backend code in response to events.
+- **AWS IoT Core**: Connects and manages IoT devices.
+- **Raspberry Pi 4**: Serves as the central processing unit.
+- **Breadboard, Wires, LEDs, Resistors**: For building the hardware interface.
 
-## Week 2: Sensor Integration and Data Processing
+## Setup Instructions
 
-### Tasks
+For detailed setup instructions, please refer to the comprehensive [article](link-to-article).
 
-1. **Connect and read data from a temperature sensor (e.g., DS18B20) using Python.**
-2. **Implement a simple data processing script to calculate the average temperature over a set period.**
-3. **Visualize the temperature data using a Python library like Matplotlib or Seaborn.**
+### Summary of Key Steps
 
-## Week 3: Week 3: IoT Project Development
+1. **AWS Lambda Setup**:
+   - Create a Lambda function, add the Alexa Skills Kit trigger, and deploy the provided code.
 
- ### Tasks
-1. **Design and implement an IoT project that integrates sensors, data processing, and visualization. Examples:**
-                                * Environmental monitoring system (e.g., temperature, humidity, air quality)
-                                * Home automation system (e.g., controlling lights or fans)
-                                * Object detection system (e.g., using a camera and OpenCV)
-2. **Implement data transmission using an IoT protocol (e.g., MQTT, CoAP) to a cloud platform or a local server.**
-3. **Present their project, including the code, in a clear and concise manner.**
+2. **Alexa Skill Configuration**:
+   - Create or update an Alexa skill, define intents and utterances, and link it to the Lambda function.
+
+3. **Raspberry Pi Setup**:
+   - Install the operating system, connect hardware, and run the provided script on the Raspberry Pi.
+
+4. **Testing**:
+   - Ensure all components are updated and synced, enable the skill in the Alexa app, and test with voice commands.
+
+## Repository Contents
+
+- **Lambda_Code**: Directory containing the final Lambda function code.
+- **RaspberryPi4_Code.py**: Final code to be run on the Raspberry Pi 4.
+- **intent.JSON**: JSON configuration for Alexa skill intents.
+- **README.md**: This file.
+
+## Workflow Diagram
+
+![Workflow Diagram](path/to/diagram.png)
+
+This diagram illustrates the interaction between the user, Alexa device, Alexa Developer Console, AWS Lambda, AWS IoT Core, and Raspberry Pi 4 to control LEDs via voice commands.
+
+
