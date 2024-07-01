@@ -41,9 +41,9 @@ For detailed setup instructions, please refer to the comprehensive [article](lin
 - **intent.JSON**: JSON configuration for Alexa skill intents.
 - **README.md**: This file.
 
-## Workflow Diagram
+## Workflow Diagram + Architecture
 
-![Workflow Diagram](path/to/diagram.png)
+<img width="1274" alt="Screenshot 2024-07-01 at 12 49 34 PM" src="https://github.com/Ad0420/IBM/assets/132739176/d8d3a927-12ca-47ce-b70e-87eb1b61975a">
 
 This diagram illustrates the interaction between the user, Alexa device, Alexa Developer Console, AWS Lambda, AWS IoT Core, and Raspberry Pi 4 to control LEDs via voice commands.
 
