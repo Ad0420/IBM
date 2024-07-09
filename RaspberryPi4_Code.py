@@ -19,10 +19,10 @@ def customCallback(client, userdata, message):
 
 # Configure MQTT Client
 myMQTTClient = AWSIoTMQTTClient("MyClientID")
-myMQTTClient.configureEndpoint("a1r3wztg7a6ycq-ats.iot.us-east-1.amazonaws.com", 8883)
-myMQTTClient.configureCredentials("/home/ibminterns/Desktop/AWS/newcerts/AmazonRootCA1.pem",
-                                  "/home/ibminterns/Desktop/AWS/newcerts/6e9d3d2b0dd3364ccc7ba3e716aca0f183ef0be38aad17b95c1a65f2b21c7288-private.pem.key",
-                                  "/home/ibminterns/Desktop/AWS/newcerts/6e9d3d2b0dd3364ccc7ba3e716aca0f183ef0be38aad17b95c1a65f2b21c7288-certificate.pem.crt")
+myMQTTClient.configureEndpoint("xxxxxxxx.iot.us-east-1.amazonaws.com", 8883)
+myMQTTClient.configureCredentials("/home/ibminterns/Desktop/AWS/newcerts/xxxxxxx",
+                                  "/home/ibminterns/Desktop/AWS/newcerts/xxxxxxxx",
+                                  "/home/ibminterns/Desktop/AWS/newcerts/xxxxxxx")
 
 # Configure the MQTT connection
 myMQTTClient.configureOfflinePublishQueueing(-1)  # Infinite offline Publish queueing
