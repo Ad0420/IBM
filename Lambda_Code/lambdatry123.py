@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # Define the IoT endpoint
-iot_endpoint = 'a1r3wztg7a6ycq-ats.iot.us-east-1.amazonaws.com'  # Replace with your actual endpoint
+iot_endpoint = 'xxxxxxxxx-ats.iot.us-east-1.amazonaws.com'  # Replace with your actual endpoint
 
 # Create an IoT Data Plane client with the endpoint
 iot_client = boto3.client('iot-data', endpoint_url=f'https://{iot_endpoint}', region_name='us-east-1')
